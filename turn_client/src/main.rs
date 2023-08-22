@@ -1,3 +1,13 @@
+/*
+  ____ _     ___ _____ _   _ _____ 
+ / ___| |   |_ _| ____| \ | |_   _|
+| |   | |    | ||  _| |  \| | | |  
+| |___| |___ | || |___| |\  | | |  
+ \____|_____|___|_____|_| \_| |_|  
+
+
+*/
+
 use std::str;
 use std::net::TcpStream;
 use std::io::{self,prelude::*,BufReader,Write};
@@ -26,3 +36,5 @@ fn main() -> io::Result<( )>{
     }
     Ok(())
 }
+
+//https://rebellionhost.com/client-server-application-tutorial
